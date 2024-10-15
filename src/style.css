@@ -1,1 +1,42 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+.card-palos {
+  padding: 25px;
+  width: 370px;
+  height: 500px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.red-color {
+  color: red;
+}
+.black-color {
+  color: black;
+}
+.p-up {
+  font-size: 50px;
+  margin-bottom: 105px;
+}
+.c-value {
+  text-align: center;
+  font-size: 73px;
+  margin-bottom: 86px;
+}
+.p-down {
+  transform: rotate(180deg);
+  font-size: 50px;
+}
+
+/*responsivcard*/
+
+@media (width <= 450px) {
+  .card-palos {
+    width: 100% !important;
+  }
+}
